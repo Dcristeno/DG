@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+ENV/
+.env
+.venv/
+env/
+ENV/
+
+# IDE and Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.tmp
+*.log
+
+# Data and Model Files (These are usually large and generated)
+/data/*
+/datasets/*
+/model/*
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project specific generated files (if any)
+*.log
+*.out
+*.err
+
+# If you use conda, ignore the environment file (optional, keep if you want to version control it)
+# environment.yml
+
+# If you have a build directory for compiled code
+build/
+dist/
+
+# Ignore temporary files created by your run scripts
+*.tmp
+*.temp
+
+# Specific to your project: ignore any output files from run.sh, run1.sh, run2.sh
+# You might want to add specific patterns here if they generate files with predictable names
+# For example, if they generate .txt or .csv files in the root:
+# *.txt
+# *.csv
+
+# Ignore the TensorSaver.py if it's a generated file or not meant to be tracked
+# TensorSaver.py # Uncomment this line if you don't want to track this file
+
+# Ignore any other generated files
+*.pkl
+*.pt
+*.h5
+*.ckpt
