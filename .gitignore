@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Output
+output/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# W&B
+wandb/
